@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'user',
+    'recipe',
 ]
 
 MIDDLEWARE = [
@@ -122,7 +123,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
+# URL to acces to the media files
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+
+# Folders where the media files are saved    
+MEDIA_ROTT = '/vol/web/media'
+STATIC_ROOT = '/vol/web/static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field

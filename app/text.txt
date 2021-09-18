@@ -1,0 +1,2 @@
+psycopg2 --> to work with PostGresSsdsdw
+Pillow ---> to work with Images
